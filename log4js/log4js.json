@@ -1,0 +1,23 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "filename": "relative-logger.log",
+      "maxLogSize": 20480,
+      "backups": 3,
+      "category": "relative-logger"
+    },
+    {
+      "type": "file",
+      "absolute": true,
+      "filename": "absolute-logger.log",
+      "maxLogSize": 20480,
+      "backups": 10,
+      "category": "absolute-logger"          
+    }
+  ],
+  "levels": {
+    "relative-logger" : "DEBUG",
+	"absolute-logger" : "ERROR"
+  }
+}

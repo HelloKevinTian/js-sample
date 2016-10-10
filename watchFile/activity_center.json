@@ -1,0 +1,26 @@
+{
+	"1": {
+		"id": 1,
+		"name": "签到好礼",
+		"card_type": "S",
+		"banner_fx": "",
+		"banner_image": "ui_ic_banner_checkin_xl",
+		"function_id": 10
+	},
+	"2": {
+		"id": 2,
+		"name": "夺宝",
+		"card_type": "S",
+		"banner_fx": "",
+		"banner_image": "ui_ic_banner_gacha_xl",
+		"function_id": 8
+	},
+	"3": {
+		"id": 3,
+		"name": "秒杀",
+		"card_type": "S",
+		"banner_fx": "",
+		"banner_image": "ui_ic_banner_deal_xl",
+		"function_id": 6
+	}
+}

@@ -1,0 +1,8 @@
+[2016-03-21 16:25:38.747] [INFO] watchFile/node_modules/ss-globaltable/lib/global-table.js - Load ./activity_center.json
+[2016-03-21 16:25:58.417] [INFO] watchFile/node_modules/ss-globaltable/lib/global-table.js - > > > > > > Reload ./activity_center.json
+[2016-03-21 16:27:08.579] [INFO] watchFile/node_modules/ss-globaltable/lib/global-table.js - > > > > > > Reload ./activity_center.json
+[2016-03-21 16:37:09.958] [INFO] watchFile/node_modules/ss-globaltable/lib/global-table.js - > > > > > > Reload ./activity_center.json
+[2016-03-21 16:37:19.976] [INFO] watchFile/node_modules/ss-globaltable/lib/global-table.js - > > > > > > Reload ./activity_center.json
+[2016-03-21 16:37:19.981] [ERROR] watchFile/node_modules/ss-globaltable/lib/global-table.js - SyntaxError : Unexpected token } in ./activity_center.json
+[2016-03-21 16:37:24.990] [INFO] watchFile/node_modules/ss-globaltable/lib/global-table.js - > > > > > > Reload ./activity_center.json
+[2016-03-21 16:37:24.992] [ERROR] watchFile/node_modules/ss-globaltable/lib/global-table.js - SyntaxError : Unexpected token } in ./activity_center.json

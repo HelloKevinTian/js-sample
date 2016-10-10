@@ -1,0 +1,4 @@
+[2015-06-18 09:44:40.992] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.137] [POST]请求: /
+[2015-06-18 09:44:41.018] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据内容验证[ [0,1,8,0,1,191,164,108,0,0,0,0,8,1,16,2,24,3,32,4] ]
+[2015-06-18 09:44:41.025] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据协议解析 [ url ] urlpath[ / ] [ 测试url ] url[ / ] data[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"number":3,"type":4,"headerMsg":{"version":0,"protoId":1,"length":8,"crcCode":1822736129,"number":0}} ]
+[2015-06-18 09:44:41.029] [INFO] LobbyServer/handle/message/verifyMsg.js - 发送到客户端数据[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"intensifyLevel":3} ][Msg_Get_EventAxis]

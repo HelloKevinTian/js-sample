@@ -1,0 +1,57 @@
+_double Random::GenNormalDistributionValue( _double expectation, _double variance )
+{
+	_double rand1 = rand() / ((_double) RAND_MAX);
+	if ( rand1 < 1e-100 ) rand1 = 1e-100;
+	rand1 = -2.0 * log( rand1 );
+	_double rand2 = (rand() / ((double) RAND_MAX)) * Math::c2Pi;
+
+	return expectation + variance * sqrt( rand1 ) * cos( rand2 );
+}
+
+_double Random::GenNormalDistributionValue( _double min_value, _double max_value, _double e, _double v )
+{
+	_double random_value = 0.0f;
+	do 
+	{
+		random_value = GenNormalDistributionValue( e, v );
+	} while ( random_value < min_value || random_value > max_value );
+
+	return random_value;
+}
+
+_float GenRandom( _float e, _float min_value, _float offset )
+{
+	return Random::GenNormalDistributionValue( min_value, e + offset, e, ( e - min_value ) / 2.5f );
+}
+
+
+
+
+
+
+
+
+
+_float Random::GenNormalDistributionValue( _float e, _float v )
+{
+	_float u1	= Random::Gen( 0.0f, 1.0f );
+	_float u2	= Random::Gen( 0.0f, 1.0f );
+	_float r	= e + v * Math::Sqrt( -2.0f * ( Math::Log( u1 ) / Math::Log( Math::cE ) ) ) * Math::Cos( 2.0f * Math::cPi * u2 );
+	return r;
+}
+
+_float Random::GenNormalDistributionValue( _float min_value, _float max_value, _float e, _float v )
+{
+	_float random_value = 0.0f;
+	do 
+	{
+		random_value = GenNormalDistributionValue( e, v );
+	} while ( random_value < min_value || random_value > max_value );
+
+	return random_value;
+}
+
+_float GenRandom( _float e, _float min_value, _float offset )
+{
+	return Random::GenNormalDistributionValue( min_value, e + offset, e, ( e - min_value ) / 2.5f );
+}

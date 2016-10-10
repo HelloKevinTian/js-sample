@@ -1,0 +1,4 @@
+[2015-06-17 14:48:27.485] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-06-17 14:48:27.489] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-06-17 14:48:27.492] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-06-17 14:48:27.497] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]

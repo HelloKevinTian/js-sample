@@ -1,0 +1,7 @@
+[2015-09-09 17:09:25.815] [DEBUG] Client/client.js - { guid: { low: 1, high: 0, unsigned: true },
+  templateid: 2,
+  number: 3,
+  type: 4 }
+[2015-09-09 17:09:25.821] [INFO] Client/request.js - 20
+[2015-09-09 17:09:25.827] [ERROR] Client/request.js - error: connect ECONNREFUSED
+[2015-09-09 17:09:25.827] [DEBUG] Client/client.js - true

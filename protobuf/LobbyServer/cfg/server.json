@@ -1,0 +1,10 @@
+[
+	{
+		"name": "LobbyServer",
+		"type": "http",
+		"host": "127.0.0.1",
+		"port": 36500,
+		"parse": false,
+		"verifyMsg": "/handle/message/verifyMsg"
+	}
+]

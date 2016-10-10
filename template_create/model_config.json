@@ -1,0 +1,24 @@
+{
+	"rank_info":{
+		"redis_type": "hash",
+		"channel": "",
+		"version": "",
+		"nickname": "",
+		"device_guid": "",
+		"area": "",
+		"phone_number": "",
+		"championship_id": 31,
+		"car": "",
+		"car_lv": "",
+		"racer": "",
+		"racer_lv": "",
+		"strength": "",
+		"score": 0,
+		"score_weekly": 0,
+		"score_activity": 0,
+		"total_race": 0,
+		"total_win": 0,
+		"blocked": 0,
+		"upload_last_time": 0
+	}
+}

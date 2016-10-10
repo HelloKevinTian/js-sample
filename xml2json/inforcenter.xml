@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InforcenterRoot>
+	<inforcenter id="1" func_id="11" desc="买车促销" res_banner="ui_banner_carsale" res_detail="ui_giftpack_welcome_icon" res_btn_text="0" par_banner="" update="" icc_id=""/>
+	<inforcenter id="2" func_id="15" desc="首充双倍" res_banner="ui_banner_1st_charge" res_detail="ui_iap_icon_rm2" res_btn_text="0" par_banner="" update="" icc_id=""/>
+	<inforcenter id="3" func_id="3" desc="新手礼包1" res_banner="ui_welcompack_icon" res_detail="" res_btn_text="0" par_banner="" update="" icc_id=""/>
+	<inforcenter id="4" func_id="24" desc="至尊超跑礼包" res_banner="ui_banner_rmpack4" res_detail="" res_btn_text="0" par_banner="" update="" icc_id=""/>
+	<inforcenter id="5" func_id="25" desc="购买变形大黄蜂" res_banner="ui_banner_bumble" res_detail="" res_btn_text="0" par_banner="" update="" icc_id=""/>
+	<inforcenter id="6" func_id="27" desc="充值有礼" res_banner="ui_banner_campain_bg" res_detail="" res_btn_text="0" par_banner="ui_banner_campain_t1_eff" update="" icc_id="3"/>
+	<inforcenter id="7" func_id="26" desc="充值有礼满足条件" res_banner="ui_banner_campain_bg" res_detail="" res_btn_text="0" par_banner="ui_banner_campain_t2_eff" update="27" icc_id="3"/>
+	<inforcenter id="8" func_id="31" desc="任意充值送好礼" res_banner="ui_sale_info_bg" res_detail="" res_btn_text="0" par_banner="" update="" icc_id="1"/>
+	<inforcenter id="9" func_id="30" desc="买零之恶魔送100飞弹" res_banner="ui_sale_info_bg" res_detail="" res_btn_text="0" par_banner="" update="" icc_id="2"/>
+</InforcenterRoot>

@@ -1,0 +1,15 @@
+[2015-09-10 11:42:41.622] [DEBUG] Client/client.js - { guid: { low: -1, high: -1, unsigned: true },
+  templateid: 2,
+  number: 3,
+  type: 4 }
+[2015-09-10 11:42:41.629] [INFO] Client/request.js - 29
+[2015-09-10 11:42:41.651] [DEBUG] Client/client.js - false
+[2015-09-10 11:42:41.653] [DEBUG] Client/client.js - { guid: { low: 1, high: 0, unsigned: true },
+  templateid: 2,
+  intensifyLevel: 3,
+  headerMsg: 
+   { version: 0,
+     protoId: 2,
+     length: 6,
+     crcCode: 3624341353,
+     number: 0 } }

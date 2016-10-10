@@ -1,0 +1,20 @@
+[2015-09-09 17:06:00.477] [INFO] LobbyServer/node_modules/ss-server/index.js - 1111111111111111  child
+[2015-09-09 17:06:00.513] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-09-09 17:06:00.521] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-09-09 17:06:00.540] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-09-09 17:06:00.546] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]
+[2015-09-09 17:06:00.484] [INFO] LobbyServer/node_modules/ss-server/index.js - 1111111111111111  child
+[2015-09-09 17:06:00.525] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-09-09 17:06:00.534] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-09-09 17:06:00.551] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-09-09 17:06:00.558] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]
+[2015-09-09 17:06:00.506] [INFO] LobbyServer/node_modules/ss-server/index.js - 1111111111111111  child
+[2015-09-09 17:06:00.557] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-09-09 17:06:00.557] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-09-09 17:06:00.571] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-09-09 17:06:00.574] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]
+[2015-09-09 17:06:00.518] [INFO] LobbyServer/node_modules/ss-server/index.js - 1111111111111111  child
+[2015-09-09 17:06:00.564] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-09-09 17:06:00.568] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-09-09 17:06:00.577] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-09-09 17:06:00.579] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]

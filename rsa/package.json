@@ -1,0 +1,17 @@
+{
+  "name": "rsa",
+  "version": "0.0.0",
+  "description": "node-rsa test",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "rsa"
+  ],
+  "dependencies": {
+    "node-rsa": "0.1.53"
+  },
+  "author": "King Lee",
+  "license": "MIT"
+}

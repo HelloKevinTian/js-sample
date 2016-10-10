@@ -1,0 +1,10 @@
+[2015-09-09 17:05:12.799] [ERROR] LobbyServer/node_modules/ss-server/index.js - 未知异常: TypeError: Object #<Logger> has no method 'infor'
+    at Object.start (/share/temp/protobuf/LobbyServer/node_modules/ss-server/index.js:66:8)
+    at Object.<anonymous> (/share/temp/protobuf/LobbyServer/lobby.js:40:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3

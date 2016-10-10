@@ -1,0 +1,18 @@
+{
+  "name": "memwatch",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "memwatch",
+    "test"
+  ],
+  "dependencies":{
+		"memwatch":"0.2.2"
+  },
+  "author": "King Lee",
+  "license": "BSD-2-Clause"
+}

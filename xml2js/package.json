@@ -1,0 +1,16 @@
+{
+  "name": "xml2js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+		"xml2js":"0.2.6",
+		"xml-digester":"0.0.5",
+		"json2xml":"0.1.1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

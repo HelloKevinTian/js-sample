@@ -1,0 +1,8 @@
+[2015-09-09 17:52:38.306] [DEBUG] Client/client.js - { guid: { low: 1, high: 0, unsigned: true },
+  templateid: 2,
+  number: 3,
+  type: 4 }
+[2015-09-09 17:52:38.314] [INFO] Client/request.js - 20
+[2015-09-09 17:52:38.329] [DEBUG] Client/client.js - false
+[2015-09-09 17:52:38.330] [ERROR] Client/proto/ProtoManager.js - 解析消息长度不一致
+[2015-09-09 17:52:38.331] [DEBUG] Client/client.js - null

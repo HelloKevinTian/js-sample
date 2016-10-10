@@ -1,0 +1,24 @@
+[2015-06-17 14:55:21.716] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-06-17 14:55:21.718] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-06-17 14:55:21.721] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-06-17 14:55:21.725] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]
+[2015-06-17 15:50:32.647] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.137] [POST]请求: /
+[2015-06-17 15:50:32.652] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据内容验证[ [0,1,8,0,1,191,164,108,0,0,0,0,8,1,16,2,24,3,32,4] ]
+[2015-06-17 15:50:32.653] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据协议解析 [ url ] urlpath[ / ] [ 测试url ] url[ / ] data[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"number":3,"type":4,"headerMsg":{"version":0,"protoId":1,"length":8,"crcCode":1822736129,"number":0}} ]
+[2015-06-17 15:50:32.660] [INFO] LobbyServer/handle/message/verifyMsg.js - 发送到客户端数据[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"intensifyLevel":3} ][Msg_Get_EventAxis]
+[2015-06-17 16:02:31.655] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.137] [POST]请求: /
+[2015-06-17 16:02:31.657] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据内容验证[ [0,1,8,0,1,191,164,108,0,0,0,0,8,1,16,2,24,3,32,4] ]
+[2015-06-17 16:02:31.658] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据协议解析 [ url ] urlpath[ / ] [ 测试url ] url[ / ] data[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"number":3,"type":4,"headerMsg":{"version":0,"protoId":1,"length":8,"crcCode":1822736129,"number":0}} ]
+[2015-06-17 16:02:31.660] [INFO] LobbyServer/handle/message/verifyMsg.js - 发送到客户端数据[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"intensifyLevel":3} ][Msg_Get_EventAxis]
+[2015-06-17 16:02:35.145] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.137] [POST]请求: /
+[2015-06-17 16:02:35.148] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据内容验证[ [0,1,8,0,1,191,164,108,0,0,0,0,8,1,16,2,24,3,32,4] ]
+[2015-06-17 16:02:35.148] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据协议解析 [ url ] urlpath[ / ] [ 测试url ] url[ / ] data[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"number":3,"type":4,"headerMsg":{"version":0,"protoId":1,"length":8,"crcCode":1822736129,"number":0}} ]
+[2015-06-17 16:02:35.149] [INFO] LobbyServer/handle/message/verifyMsg.js - 发送到客户端数据[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"intensifyLevel":3} ][Msg_Get_EventAxis]
+[2015-06-17 16:07:28.513] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.137] [POST]请求: /
+[2015-06-17 16:07:28.514] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据内容验证[ [0,1,8,0,1,191,164,108,0,0,0,0,8,1,16,2,24,3,32,4] ]
+[2015-06-17 16:07:28.514] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据协议解析 [ url ] urlpath[ / ] [ 测试url ] url[ / ] data[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"number":3,"type":4,"headerMsg":{"version":0,"protoId":1,"length":8,"crcCode":1822736129,"number":0}} ]
+[2015-06-17 16:07:28.515] [INFO] LobbyServer/handle/message/verifyMsg.js - 发送到客户端数据[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"intensifyLevel":3} ][Msg_Get_EventAxis]
+[2015-06-17 16:07:37.033] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.137] [POST]请求: /
+[2015-06-17 16:07:37.034] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据内容验证[ [0,1,8,0,1,191,164,108,0,0,0,0,8,1,16,2,24,3,32,4] ]
+[2015-06-17 16:07:37.034] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - [ LobbyServer-Server ]数据协议解析 [ url ] urlpath[ / ] [ 测试url ] url[ / ] data[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"number":3,"type":4,"headerMsg":{"version":0,"protoId":1,"length":8,"crcCode":1822736129,"number":0}} ]
+[2015-06-17 16:07:37.034] [INFO] LobbyServer/handle/message/verifyMsg.js - 发送到客户端数据[ {"guid":{"low":1,"high":0,"unsigned":true},"templateid":2,"intensifyLevel":3} ][Msg_Get_EventAxis]

@@ -1,0 +1,11 @@
+{
+    "pool_1" : {
+        "hostname" : "127.0.0.1",
+        "port" : 20000,
+        "db" : "test_mongodb_pool",
+        "max" : 1000,
+        "idleTimeoutMillis" : 30000,
+        "log" : false,
+        "proxy" : false
+    }
+}

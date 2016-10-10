@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "cs2_server.cs2_stage", "name" : "_id_" }, { "v" : 1, "key" : { "uid" : 1 }, "ns" : "cs2_server.cs2_stage", "name" : "uid_1" }, { "v" : 1, "key" : { "stage_id" : 1 }, "ns" : "cs2_server.cs2_stage", "name" : "stage_id_1" } ] }

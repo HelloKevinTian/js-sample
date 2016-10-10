@@ -1,0 +1,8 @@
+{
+    "LobbyServer": [{
+        "description": "测试url",
+        "url": "/",
+        "path": "/index",
+        "type": "all"
+    }]
+}

@@ -1,0 +1,15 @@
+[2015-09-10 11:45:08.660] [DEBUG] Client/client.js - 发送给服务端的数据： { guid: { low: -1506741424, high: 28744523, unsigned: true },
+  templateid: 2,
+  number: 3,
+  type: 4 }
+[2015-09-10 11:45:08.668] [INFO] Client/request.js - 28
+[2015-09-10 11:45:08.686] [DEBUG] Client/client.js - false
+[2015-09-10 11:45:08.689] [DEBUG] Client/client.js - 接受的服务端的数据： { guid: { low: 111, high: 0, unsigned: true },
+  templateid: 222,
+  intensifyLevel: 333,
+  headerMsg: 
+   { version: 0,
+     protoId: 2,
+     length: 8,
+     crcCode: 3026447153,
+     number: 0 } }

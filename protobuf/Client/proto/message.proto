@@ -1,0 +1,82 @@
+
+/*
+ *    通用类型
+ */
+
+enum MessageType
+{	
+	Msg_Login = 0;
+	Msg_Get_BasicUserInfo = 1;
+	Msg_Get_EventAxis = 2;
+	Msg_Get_WeaponFixParams = 3;
+	Msg_Get_LoginReward = 4;
+	Msg_Get_StageInfo = 5;
+	Msg_Get_FishFarmInfo = 6;
+	Msg_Get_DailyMissionInfo = 7;
+	Msg_Get_AchievementInfo = 8;
+	Msg_Get_FishUnlockInfo = 9;
+	Msg_Get_SubmarineInfo = 10;
+	Msg_Get_WeaponInfos = 11;
+	Msg_Get_LotteryInfo = 12;
+	Msg_Get_DrawCardInfo = 13;
+	Msg_Get_NoticeInfo = 14;
+	Msg_Get_ActivityInfo = 15;
+	Msg_Get_MixtureInfo = 16;
+	Msg_Get_LimitSceneInfo = 17;
+	Msg_Get_StoreInfo = 18;
+	Msg_Get_TimeInfo = 19;
+	Msg_Get_StasInfo = 20;
+	Msg_Get_FishingScoreRecord = 21;
+	Msg_Get_GuideInfo = 22;
+	Msg_Get_HitRewardRecordInfo = 23;
+	Msg_Get_CrystalInfo = 24;
+	Msg_Get_GoldInfo = 25;
+	Msg_Get_DrawCardForFree = 26;
+	Msg_Get_Max = 27;
+	
+	//预留
+	Msg_Post = 50;
+	Msg_Post_BasicUserInfo = 51;
+	Msg_Post_EventAxis = 52;
+	Msg_Post_WeaponFixParams = 53;
+	Msg_Post_LoginReward = 54;
+	Msg_Post_StageInfo = 55;
+	Msg_Post_FishFarmInfo = 56;
+	Msg_Post_DailyMissionInfo = 57;
+	Msg_Post_AchievementInfo = 58;
+	Msg_Post_FishUnlockInfo = 59;
+	Msg_Post_SubmarineInfo = 60;
+	Msg_Post_WeaponInfos = 61;
+	Msg_Post_LotteryInfo = 62;
+	Msg_Post_DrawCardInfo = 63;
+	Msg_Post_NoticeInfo = 64;
+	Msg_Post_ActivityInfo = 65;
+	Msg_Post_MixtureInfo = 66;
+	Msg_Post_LimitSceneInfo = 67;
+	Msg_Post_StoreInfo = 68;
+	Msg_Post_TimeInfo = 69;
+	Msg_Post_StasInfo = 70;
+	Msg_Post_FishingScoreRecord = 71;
+	Msg_Post_GuideInfo = 72;
+	Msg_Post_HitRewardRecordInfo = 73;
+	Msg_Post_CrystalInfo = 74;
+	Msg_Post_GoldInfo = 75;
+	Msg_Post_DrawCardForFree = 76;
+}
+
+// 道具
+message Item
+{
+    optional uint64 guid = 1;        // 唯一索引
+    required uint32 templateid = 2;  // 道具ID
+    optional uint32 number = 3;      // 数量
+    required int32  type = 4;        //道具类型
+}
+
+// 装备
+message Equip
+{
+    required uint64 guid = 1;                      // 唯一索引
+    required uint32 templateid = 2;                // 道具ID
+    required uint32 intensifyLevel = 11;            // 强化等级
+}

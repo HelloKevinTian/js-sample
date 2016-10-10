@@ -1,0 +1,32 @@
+[2015-06-17 14:44:19.787] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-06-17 14:44:19.791] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-06-17 14:44:19.795] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-06-17 14:44:19.799] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]
+[2015-06-17 14:47:18.080] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.161] [GET]请求: /
+[2015-06-17 14:47:18.081] [ERROR] LobbyServer/proto/ProtoManager.js - 1
+[2015-06-17 14:47:18.084] [ERROR] LobbyServer/node_modules/ss-server/index.js - 未知异常: RangeError: Trying to access beyond buffer length
+    at checkOffset (buffer.js:582:11)
+    at Buffer.readUInt8 (buffer.js:588:5)
+    at Object.Decode (/share/temp/protobuf/LobbyServer/proto/ProtoManager.js:102:25)
+    at handle [as verifyMsg] (/share/temp/protobuf/LobbyServer/handle/message/verifyMsg.js:16:22)
+    at Connector.verifyMessage (/share/temp/protobuf/LobbyServer/node_modules/ss-server/lib/connector.js:394:14)
+    at Connector.httpMessage (/share/temp/protobuf/LobbyServer/node_modules/ss-server/lib/connector.js:363:10)
+    at Server.<anonymous> (/share/temp/protobuf/LobbyServer/node_modules/ss-server/lib/connector.js:269:34)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)
+[2015-06-17 14:47:23.512] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.161] [GET]请求: /test
+[2015-06-17 14:47:23.516] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 发送到客户端数据[ {"code":"[ LobbyServer-Server ]test connect succeed!"} ]
+[2015-06-17 14:47:23.561] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 接收到客户端[192.168.20.161] [GET]请求: /favicon.ico
+[2015-06-17 14:47:23.561] [ERROR] LobbyServer/proto/ProtoManager.js - 1
+[2015-06-17 14:47:23.562] [ERROR] LobbyServer/node_modules/ss-server/index.js - 未知异常: RangeError: Trying to access beyond buffer length
+    at checkOffset (buffer.js:582:11)
+    at Buffer.readUInt8 (buffer.js:588:5)
+    at Object.Decode (/share/temp/protobuf/LobbyServer/proto/ProtoManager.js:102:25)
+    at handle [as verifyMsg] (/share/temp/protobuf/LobbyServer/handle/message/verifyMsg.js:16:22)
+    at Connector.verifyMessage (/share/temp/protobuf/LobbyServer/node_modules/ss-server/lib/connector.js:394:14)
+    at Connector.httpMessage (/share/temp/protobuf/LobbyServer/node_modules/ss-server/lib/connector.js:363:10)
+    at Server.<anonymous> (/share/temp/protobuf/LobbyServer/node_modules/ss-server/lib/connector.js:269:34)
+    at Server.EventEmitter.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2108:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:121:23)

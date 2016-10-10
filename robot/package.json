@@ -1,0 +1,22 @@
+{
+  "name": "robot",
+  "version": "0.0.0",
+  "description": "load robot data",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "robot"
+  ],
+  "dependencies":{
+		"redis":"0.10.1",
+		"node-xlsx":"0.4.0"
+    },
+  "author": "King Lee",
+  "license": "MIT"
+}

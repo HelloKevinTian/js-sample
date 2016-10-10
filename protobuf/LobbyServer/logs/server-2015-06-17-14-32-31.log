@@ -1,0 +1,16 @@
+[2015-06-17 14:32:31.826] [ERROR] LobbyServer/proto/ProtoManager.js - [TypeError: Cannot call method 'build' of null]
+TypeError: Cannot call method 'build' of null
+    at LoadProtoFile (/share/temp/protobuf/LobbyServer/proto/ProtoManager.js:51:59)
+    at Object.LoadAllProtoFile (/share/temp/protobuf/LobbyServer/proto/ProtoManager.js:28:2)
+    at /share/temp/protobuf/LobbyServer/lobby.js:23:15
+    at Object.start (/share/temp/protobuf/LobbyServer/node_modules/ss-server/index.js:75:25)
+    at Object.<anonymous> (/share/temp/protobuf/LobbyServer/lobby.js:40:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+[2015-06-17 14:32:31.838] [INFO] LobbyServer/lobby.js - 添加proto管理器
+[2015-06-17 14:32:31.838] [INFO] LobbyServer/lobby.js - 添加mongodb读写组件
+[2015-06-17 14:32:31.843] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 读取协议处理成功! [ all ][ 测试url ] url[ / ] path[ /index ]
+[2015-06-17 14:32:31.858] [INFO] LobbyServer/node_modules/ss-server/lib/connector.js - 创建 http 服务器 host = [127.0.0.1] port = [36500]

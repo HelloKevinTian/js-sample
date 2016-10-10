@@ -1,0 +1,14 @@
+{
+  "name": "rival_pvp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "dependencies":{
+		"node-xlsx":"0.4.0"
+    },
+  "author": "King Lee",
+  "license": "BSD-2-Clause"
+}

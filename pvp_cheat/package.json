@@ -1,0 +1,15 @@
+{
+  "name": "redis",
+  "version": "0.0.0",
+  "description": "",
+  "main": "redis_pools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies":{
+		"redis":"0.10.1",
+		"generic-pool":"2.0.4"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
