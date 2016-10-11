@@ -1,1 +1,0 @@
-{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "cs2_server.cs2_car", "name" : "_id_" }, { "v" : 1, "key" : { "uid" : 1 }, "ns" : "cs2_server.cs2_car", "name" : "uid_1" }, { "v" : 1, "key" : { "car_id" : 1 }, "ns" : "cs2_server.cs2_car", "name" : "car_id_1" } ] }
