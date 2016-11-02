@@ -1,3 +1,6 @@
+/**
+ * 判断一个坐标是否处于一个n边形内
+ */
 function pointInPoly(poly, point) {
     var xArr = [];
     var yArr = [];
