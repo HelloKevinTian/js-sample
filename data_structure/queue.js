@@ -1,63 +1,70 @@
 /**
  * 先进先出的队列
  */
-var Queue = function(size) {
-    this.size = size || 20;
-    this.queue = [];
-    this.end = -1;
+module.exports = Queue;
 
-    this.setSize = function(size) {
-        this.size = size;
+var Queue = function() {
+    var items = [];
+
+    this.enqueue = function(element) {
+        items.push(element);
     }
 
-    this.in = function(element) {
-        if (this.end < this.size - 1) {
-            this.queue.push(element);
-            this.end++;
-        } else {
-            console.error('queue full');
-        }
-    }
-
-    this.out = function() {
-        if (this.end != -1) {
-            var element = this.queue[0];
-            this.queue = this.queue.slice(1);
-            this.end--;
-            return element;
-        } else {
-            console.error('queue empty');
-        }
+    this.dequeue = function() {
+        return items.shift();
     }
 
     this.front = function() {
-        return this.queue[0];
-    }
-
-    this.getEnd = function() {
-        return this.end;
-    }
-
-    this.empty = function() {
-        this.queue = [];
-        this.end = -1;
+        return items[0];
     }
 
     this.isEmpty = function() {
-        return this.end === -1;
+        return items.length === 0;
+    }
+
+    this.clear = function() {
+        items = [];
+    }
+
+    this.size = function() {
+        return items.length;
+    }
+
+    this.print = function() {
+        console.log(items.toString());
     }
 }
 
-var q = new Queue();
 
-for (var i = 0; i < 10; i++) {
-    q.in(i);
-};
+// var queue = new Queue();
+// console.log(queue.isEmpty()); // 输出 true
+// queue.enqueue('John'); // 添加元素 John
+// queue.enqueue('Jam'); // 添加元素 Jam
+// queue.enqueue('Camila'); // 添加元素 Camila
+// queue.print();
+// console.log(queue.size()); // 输出 3
+// console.log(queue.isEmpty()); // 输出 false
+// queue.dequeue(); // 移除元素
+// queue.dequeue();
+// queue.print();
 
-console.log('end: ', q.getEnd());
 
-for (var i = 0; i < 10; i++) {
-    console.log(q.out());
-};
-
-module.exports = Queue;
+function hotPotato(namelist, num) {
+    var queue = new Queue();
+    for (var i = 0; i < namelist.length; i++) { // {1}
+        queue.enqueue(namelist[i]);
+    }
+    var eliminated = "";
+    while (queue.size() > 1) { // {2}
+        for (var i = 0; i < num; i++) {
+            queue.enqueue(queue.dequeue()); // {3}
+            queue.print();
+        }
+        eliminated = queue.dequeue(); // {4}
+        console.log(eliminated + "在击鼓传花游戏中被淘汰");
+    }
+    return queue.dequeue(); // {5}
+}
+var names = ['john', 'jack', 'camila', 'ingrid', 'carl'];
+var winner = hotPotato(names, 7);
+console.log("胜利者： " + winner); //john

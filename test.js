@@ -1,9 +1,24 @@
-var fs = require("fs");
-var zlib = require('zlib');
+function diffDay(start, end) {
+	var startDate = new Date(start);
+	var endDate = new Date(end);
 
-// 压缩 input.txt 文件为 input.txt.gz
-fs.createReadStream('input.txt')
-    .pipe(zlib.createGzip())
-    .pipe(fs.createWriteStream('input.txt.gz'));
+	var sY = startDate.getFullYear();
+	var sM = startDate.getMonth() + 1;
+	var sD = startDate.getDate();
 
-console.log("文件压缩完成。");
+	var eY = endDate.getFullYear();
+	var eM = endDate.getMonth() + 1;
+	var eD = endDate.getDate();
+
+	var Date1 = new Date(sY + '-' + sM + '-' + sD);
+	var Date2 = new Date(eY + '-' + eM + '-' + eD);
+	var iDays = parseInt(Math.abs(Date2 - Date1) / (1000 * 24 * 60 * 60));
+
+	return iDays;
+}
+
+var a = '2017/02/03';
+
+var b = '2017/02/05';
+
+console.log(diffDay(new Date(a), new Date(b)));
