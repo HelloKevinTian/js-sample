@@ -27,7 +27,7 @@ if (flag === 1) {
 	console.log(list);
 
 	L.isEmpty(list);
-} else if (flag === 2) {
+} else if (flag === 2) { //测试删除奇数元素的效率
 	var arr = [];
 	var hash = {};
 	var length = 100000;
@@ -74,7 +74,7 @@ if (flag === 1) {
 		if (item.data % 2) {
 			L.remove(item);
 		}
-	})
+	});
 	console.timeEnd('list');
 	var i = 0;
 	L.traversal(list, function(item) {

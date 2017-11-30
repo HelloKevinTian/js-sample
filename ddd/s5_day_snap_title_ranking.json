@@ -1,0 +1,901 @@
+[{
+	"_id": "12423811",
+	"title": 44,
+	"title_exp": 2128,
+	"day_exp": 27523,
+	"week_exp": 46971,
+	"last_title_time": 1505577575007,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12551410",
+	"title": 35,
+	"title_exp": 841,
+	"day_exp": 21860,
+	"week_exp": 26134,
+	"last_title_time": 1505577536825,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12460808",
+	"title": 32,
+	"title_exp": 2023,
+	"day_exp": 20652,
+	"week_exp": 21507,
+	"last_title_time": 1505577480258,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12428289",
+	"title": 43,
+	"title_exp": 13,
+	"day_exp": 14355,
+	"week_exp": 27306,
+	"last_title_time": 1505572164118,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12547348",
+	"title": 31,
+	"title_exp": 1329,
+	"day_exp": 12799,
+	"week_exp": 20953,
+	"last_title_time": 1505574121140,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12428805",
+	"title": 31,
+	"title_exp": 601,
+	"day_exp": 8903,
+	"week_exp": 14701,
+	"last_title_time": 1505572050505,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12567922",
+	"title": 24,
+	"title_exp": 429,
+	"day_exp": 8024,
+	"week_exp": 8024,
+	"last_title_time": 1505574778456,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12643277",
+	"title": 33,
+	"title_exp": 454,
+	"day_exp": 7897,
+	"week_exp": 24320,
+	"last_title_time": 1505575161546,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_57125430",
+	"title": 24,
+	"title_exp": 604,
+	"day_exp": 6788,
+	"week_exp": 9800,
+	"last_title_time": 1505568895130,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12601997",
+	"title": 30,
+	"title_exp": 694,
+	"day_exp": 5457,
+	"week_exp": 18217,
+	"last_title_time": 1505565834504,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12381122",
+	"title": 23,
+	"title_exp": 777,
+	"day_exp": 5160,
+	"week_exp": 6680,
+	"last_title_time": 1505573848087,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12673232",
+	"title": 21,
+	"title_exp": 296,
+	"day_exp": 3813,
+	"week_exp": 6402,
+	"last_title_time": 1505576298251,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12652913",
+	"title": 18,
+	"title_exp": 292,
+	"day_exp": 3729,
+	"week_exp": 4208,
+	"last_title_time": 1505553116445,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12591896",
+	"title": 20,
+	"title_exp": 534,
+	"day_exp": 3691,
+	"week_exp": 5723,
+	"last_title_time": 1505559156390,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12349121",
+	"title": 28,
+	"title_exp": 932,
+	"day_exp": 3218,
+	"week_exp": 3671,
+	"last_title_time": 1505574232367,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12408496",
+	"title": 27,
+	"title_exp": 677,
+	"day_exp": 2872,
+	"week_exp": 4230,
+	"last_title_time": 1505565819781,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12653362",
+	"title": 15,
+	"title_exp": 243,
+	"day_exp": 2455,
+	"week_exp": 2569,
+	"last_title_time": 1505575255785,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12483787",
+	"title": 17,
+	"title_exp": 243,
+	"day_exp": 2450,
+	"week_exp": 2753,
+	"last_title_time": 1505565320585,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12509310",
+	"title": 19,
+	"title_exp": 192,
+	"day_exp": 2401,
+	"week_exp": 4738,
+	"last_title_time": 1505551809019,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12496976",
+	"title": 28,
+	"title_exp": 834,
+	"day_exp": 2374,
+	"week_exp": 10389,
+	"last_title_time": 1505562730783,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12487405",
+	"title": 25,
+	"title_exp": 1255,
+	"day_exp": 2316,
+	"week_exp": 9736,
+	"last_title_time": 1505529670395,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12614246",
+	"title": 25,
+	"title_exp": 534,
+	"day_exp": 2187,
+	"week_exp": 9891,
+	"last_title_time": 1505571614901,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12375268",
+	"title": 19,
+	"title_exp": 319,
+	"day_exp": 2093,
+	"week_exp": 4049,
+	"last_title_time": 1505577536827,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_56941548",
+	"title": 23,
+	"title_exp": 476,
+	"day_exp": 2059,
+	"week_exp": 7642,
+	"last_title_time": 1505577314862,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12690257",
+	"title": 14,
+	"title_exp": 162,
+	"day_exp": 2058,
+	"week_exp": 2058,
+	"last_title_time": 1505571640487,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "324_30AFB1E5CF964FCA8227A5E297870610",
+	"title": 15,
+	"title_exp": 476,
+	"day_exp": 2035,
+	"week_exp": 2802,
+	"last_title_time": 1505562769737,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12625772",
+	"title": 16,
+	"title_exp": 350,
+	"day_exp": 1969,
+	"week_exp": 3004,
+	"last_title_time": 1505549343561,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12219930",
+	"title": 15,
+	"title_exp": 226,
+	"day_exp": 1871,
+	"week_exp": 2552,
+	"last_title_time": 1505572479819,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12531968",
+	"title": 19,
+	"title_exp": 367,
+	"day_exp": 1477,
+	"week_exp": 3196,
+	"last_title_time": 1505563347186,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12424407",
+	"title": 18,
+	"title_exp": 180,
+	"day_exp": 1455,
+	"week_exp": 2567,
+	"last_title_time": 1505567228139,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12446042",
+	"title": 17,
+	"title_exp": 558,
+	"day_exp": 1415,
+	"week_exp": 2879,
+	"last_title_time": 1505562730490,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12595983",
+	"title": 22,
+	"title_exp": 68,
+	"day_exp": 1345,
+	"week_exp": 5972,
+	"last_title_time": 1505561467508,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12433236",
+	"title": 26,
+	"title_exp": 716,
+	"day_exp": 1271,
+	"week_exp": 5950,
+	"last_title_time": 1505557295264,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12383679",
+	"title": 23,
+	"title_exp": 776,
+	"day_exp": 1265,
+	"week_exp": 3734,
+	"last_title_time": 1505563756910,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12674757",
+	"title": 13,
+	"title_exp": 268,
+	"day_exp": 1159,
+	"week_exp": 1784,
+	"last_title_time": 1505577156680,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12518220",
+	"title": 14,
+	"title_exp": 219,
+	"day_exp": 1113,
+	"week_exp": 1633,
+	"last_title_time": 1505566329820,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12648309",
+	"title": 12,
+	"title_exp": 29,
+	"day_exp": 1066,
+	"week_exp": 1215,
+	"last_title_time": 1505547759214,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12617429",
+	"title": 13,
+	"title_exp": 146,
+	"day_exp": 1012,
+	"week_exp": 1550,
+	"last_title_time": 1505560582814,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12561802",
+	"title": 11,
+	"title_exp": 131,
+	"day_exp": 977,
+	"week_exp": 977,
+	"last_title_time": 1505545307897,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12670854",
+	"title": 11,
+	"title_exp": 40,
+	"day_exp": 946,
+	"week_exp": 946,
+	"last_title_time": 1505552060761,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_57166140",
+	"title": 11,
+	"title_exp": 50,
+	"day_exp": 944,
+	"week_exp": 956,
+	"last_title_time": 1505568356295,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12501434",
+	"title": 17,
+	"title_exp": 169,
+	"day_exp": 912,
+	"week_exp": 2363,
+	"last_title_time": 1505575832326,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12406984",
+	"title": 27,
+	"title_exp": 605,
+	"day_exp": 904,
+	"week_exp": 932,
+	"last_title_time": 1505563093613,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12584770",
+	"title": 17,
+	"title_exp": 404,
+	"day_exp": 891,
+	"week_exp": 2871,
+	"last_title_time": 1505564859614,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12574185",
+	"title": 18,
+	"title_exp": 336,
+	"day_exp": 884,
+	"week_exp": 4252,
+	"last_title_time": 1505547703748,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12494702",
+	"title": 28,
+	"title_exp": 160,
+	"day_exp": 883,
+	"week_exp": 5013,
+	"last_title_time": 1505556259533,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12516834",
+	"title": 13,
+	"title_exp": 71,
+	"day_exp": 867,
+	"week_exp": 1254,
+	"last_title_time": 1505566329821,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12579829",
+	"title": 27,
+	"title_exp": 1295,
+	"day_exp": 864,
+	"week_exp": 11225,
+	"last_title_time": 1505561688964,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12651446",
+	"title": 22,
+	"title_exp": 252,
+	"day_exp": 856,
+	"week_exp": 7288,
+	"last_title_time": 1505570785600,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12650179",
+	"title": 12,
+	"title_exp": 91,
+	"day_exp": 855,
+	"week_exp": 1277,
+	"last_title_time": 1505531890957,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12692185",
+	"title": 10,
+	"title_exp": 170,
+	"day_exp": 846,
+	"week_exp": 846,
+	"last_title_time": 1505570716093,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12669123",
+	"title": 12,
+	"title_exp": 287,
+	"day_exp": 838,
+	"week_exp": 1473,
+	"last_title_time": 1505561609129,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12168282",
+	"title": 24,
+	"title_exp": 200,
+	"day_exp": 825,
+	"week_exp": 2246,
+	"last_title_time": 1505568487557,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_57016671",
+	"title": 12,
+	"title_exp": 254,
+	"day_exp": 824,
+	"week_exp": 1440,
+	"last_title_time": 1505555696320,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12653580",
+	"title": 12,
+	"title_exp": 78,
+	"day_exp": 823,
+	"week_exp": 1264,
+	"last_title_time": 1505568759313,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12439272",
+	"title": 14,
+	"title_exp": 426,
+	"day_exp": 818,
+	"week_exp": 1794,
+	"last_title_time": 1505567885596,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12674579",
+	"title": 15,
+	"title_exp": 247,
+	"day_exp": 807,
+	"week_exp": 2573,
+	"last_title_time": 1505569944120,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12455769",
+	"title": 22,
+	"title_exp": 834,
+	"day_exp": 771,
+	"week_exp": 1094,
+	"last_title_time": 1505574187860,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12628203",
+	"title": 14,
+	"title_exp": 333,
+	"day_exp": 753,
+	"week_exp": 2229,
+	"last_title_time": 1505572964280,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12685642",
+	"title": 10,
+	"title_exp": 85,
+	"day_exp": 749,
+	"week_exp": 761,
+	"last_title_time": 1505549743680,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12679905",
+	"title": 11,
+	"title_exp": 84,
+	"day_exp": 721,
+	"week_exp": 990,
+	"last_title_time": 1505546915717,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12655475",
+	"title": 10,
+	"title_exp": 124,
+	"day_exp": 705,
+	"week_exp": 800,
+	"last_title_time": 1505553287984,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12672276",
+	"title": 10,
+	"title_exp": 97,
+	"day_exp": 682,
+	"week_exp": 773,
+	"last_title_time": 1505531141346,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12490014",
+	"title": 14,
+	"title_exp": 288,
+	"day_exp": 680,
+	"week_exp": 1362,
+	"last_title_time": 1505498094453,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_57013161",
+	"title": 11,
+	"title_exp": 126,
+	"day_exp": 656,
+	"week_exp": 1032,
+	"last_title_time": 1505577420744,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12656308",
+	"title": 9,
+	"title_exp": 141,
+	"day_exp": 637,
+	"week_exp": 637,
+	"last_title_time": 1505576774231,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12561858",
+	"title": 12,
+	"title_exp": 67,
+	"day_exp": 635,
+	"week_exp": 890,
+	"last_title_time": 1505558456739,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12678970",
+	"title": 11,
+	"title_exp": 146,
+	"day_exp": 617,
+	"week_exp": 1052,
+	"last_title_time": 1505574299729,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12506490",
+	"title": 16,
+	"title_exp": 397,
+	"day_exp": 604,
+	"week_exp": 1856,
+	"last_title_time": 1505536846368,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12683689",
+	"title": 9,
+	"title_exp": 95,
+	"day_exp": 591,
+	"week_exp": 591,
+	"last_title_time": 1505565831394,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12353788",
+	"title": 12,
+	"title_exp": 307,
+	"day_exp": 581,
+	"week_exp": 581,
+	"last_title_time": 1505566187947,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12489465",
+	"title": 9,
+	"title_exp": 75,
+	"day_exp": 571,
+	"week_exp": 571,
+	"last_title_time": 1505567391490,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12681096",
+	"title": 10,
+	"title_exp": 191,
+	"day_exp": 552,
+	"week_exp": 867,
+	"last_title_time": 1505543752809,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12606314",
+	"title": 12,
+	"title_exp": 180,
+	"day_exp": 533,
+	"week_exp": 1214,
+	"last_title_time": 1505562629615,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12677320",
+	"title": 9,
+	"title_exp": 84,
+	"day_exp": 532,
+	"week_exp": 580,
+	"last_title_time": 1505568506104,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12686384",
+	"title": 9,
+	"title_exp": 36,
+	"day_exp": 532,
+	"week_exp": 532,
+	"last_title_time": 1505564030482,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12670166",
+	"title": 13,
+	"title_exp": 84,
+	"day_exp": 528,
+	"week_exp": 1600,
+	"last_title_time": 1505569001128,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_56882946",
+	"title": 15,
+	"title_exp": 422,
+	"day_exp": 527,
+	"week_exp": 1846,
+	"last_title_time": 1505574487947,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12573268",
+	"title": 13,
+	"title_exp": 162,
+	"day_exp": 520,
+	"week_exp": 1290,
+	"last_title_time": 1505530266414,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_56879236",
+	"title": 22,
+	"title_exp": 489,
+	"day_exp": 518,
+	"week_exp": 7137,
+	"last_title_time": 1505571032549,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12661964",
+	"title": 9,
+	"title_exp": 82,
+	"day_exp": 502,
+	"week_exp": 578,
+	"last_title_time": 1505568330156,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "11039191",
+	"title": 8,
+	"title_exp": 128,
+	"day_exp": 494,
+	"week_exp": 494,
+	"last_title_time": 1505526992257,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12619378",
+	"title": 16,
+	"title_exp": 137,
+	"day_exp": 490,
+	"week_exp": 2943,
+	"last_title_time": 1505556778049,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12622094",
+	"title": 13,
+	"title_exp": 215,
+	"day_exp": 483,
+	"week_exp": 1576,
+	"last_title_time": 1505554135214,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12693797",
+	"title": 8,
+	"title_exp": 109,
+	"day_exp": 475,
+	"week_exp": 475,
+	"last_title_time": 1505566882907,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12427840",
+	"title": 18,
+	"title_exp": 489,
+	"day_exp": 464,
+	"week_exp": 2195,
+	"last_title_time": 1505566823193,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12682468",
+	"title": 8,
+	"title_exp": 98,
+	"day_exp": 464,
+	"week_exp": 464,
+	"last_title_time": 1505537710729,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12604669",
+	"title": 15,
+	"title_exp": 477,
+	"day_exp": 463,
+	"week_exp": 2743,
+	"last_title_time": 1505538230357,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12408656",
+	"title": 13,
+	"title_exp": 195,
+	"day_exp": 447,
+	"week_exp": 472,
+	"last_title_time": 1505538265991,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12493872",
+	"title": 18,
+	"title_exp": 544,
+	"day_exp": 442,
+	"week_exp": 2098,
+	"last_title_time": 1505571798670,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12409489",
+	"title": 12,
+	"title_exp": 81,
+	"day_exp": 441,
+	"week_exp": 530,
+	"last_title_time": 1505562896797,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12698160",
+	"title": 8,
+	"title_exp": 75,
+	"day_exp": 441,
+	"week_exp": 441,
+	"last_title_time": 1505573146845,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12526954",
+	"title": 18,
+	"title_exp": 25,
+	"day_exp": 439,
+	"week_exp": 2417,
+	"last_title_time": 1505553193905,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12552287",
+	"title": 11,
+	"title_exp": 37,
+	"day_exp": 438,
+	"week_exp": 839,
+	"last_title_time": 1505529674331,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12504652",
+	"title": 17,
+	"title_exp": 289,
+	"day_exp": 436,
+	"week_exp": 2398,
+	"last_title_time": 1505542689895,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12635958",
+	"title": 11,
+	"title_exp": 101,
+	"day_exp": 430,
+	"week_exp": 1007,
+	"last_title_time": 1505539065323,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12428917",
+	"title": 13,
+	"title_exp": 15,
+	"day_exp": 421,
+	"week_exp": 793,
+	"last_title_time": 1505561530450,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12666721",
+	"title": 10,
+	"title_exp": 130,
+	"day_exp": 414,
+	"week_exp": 806,
+	"last_title_time": 1505544494563,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "12439491",
+	"title": 12,
+	"title_exp": 300,
+	"day_exp": 412,
+	"week_exp": 856,
+	"last_title_time": 1505561649308,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}, {
+	"_id": "134_56887964",
+	"title": 18,
+	"title_exp": 74,
+	"day_exp": 412,
+	"week_exp": 3990,
+	"last_title_time": 1505573954996,
+	"cur_day": "2017-09-16",
+	"cur_week": "2017-38"
+}]
