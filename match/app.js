@@ -2,6 +2,8 @@ var xlsx = require('node-xlsx');
 
 var excel = xlsx.parse('match.xlsx'); // parses a file
 
+excel.worksheets = excel;
+
 console.log(excel.worksheets[1].name);
 console.log(excel.worksheets[1].data[13]);
 console.log(excel.worksheets[1].data[14]);
