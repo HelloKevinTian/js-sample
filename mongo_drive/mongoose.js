@@ -1,145 +1,150 @@
-//------------------------test mongoose---------------------------------
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:13600/test');
+var moment = require('moment');
+var Schema = mongoose.Schema;
 
-//test connection
+mongoose.connect('mongodb://127.0.0.1:27017/test_mongo');
 var db = mongoose.connection;
-
 db.on('error', console.error.bind(console, 'connection error:'));
-
-db.once('open', function(callback) {
-	console.log('mongodb connect sucess ...');
+db.once('open', function (callback) {
+    console.log('mongodb connect sucess ...');
 });
 
-
-// ---------------------------test 1--------------------------
-var kittySchema = mongoose.Schema({
-	name: String
+var CarSchema = new Schema({
+    _id: String,
+    name: {
+        type: String
+    },
+    partIds: [{
+        type: String,
+        ref: 'Part'
+    }],
+    date: {
+        type: Date,
+        default: Date.now,
+        // get: v => moment(v).format("YYYY-MM-DD")
+    }
 });
 
-var Kitten = mongoose.model('Kitten', kittySchema);
-
-var silence = new Kitten({
-	name: 'Silence'
+var PartSchema = new Schema({
+    _id: String,
+    name: {
+        type: String
+    },
+    otherIds: [{
+        type: String,
+        ref: 'Other'
+    }],
 });
 
-// silence.save(function(err) {
-// 	if (err)
-// 		console.error('meow');
-// 	console.log('meow');
+var OtherSchema = new Schema({
+    _id: String,
+    name: {
+        type: String
+    }
+});
+
+CarSchema.set('toJSON', { getters: true, virtuals: true});
+CarSchema.set('toObject', { getters: true, virtuals: true });
+
+// CarSchema.virtual('date_v').get(function () {
+//     console.log('--------- ', this.date)
+//     return moment(this.date).format("YYYY-MM-DD");
 // });
 
-Kitten.find({
-	name: 'Silence'
-}, function(err, kittens) {
-	if (err)
-		console.error(err);
-	console.log(kittens)
+CarSchema.path('date').get(function (v) {
+    return moment(v).format("YYYY-MM-DD HH:mm:ss");
+});
+
+var Car = mongoose.model("Car", CarSchema);
+var Part = mongoose.model("Part", PartSchema);
+var Other = mongoose.model("Other", OtherSchema);
+
+//first insert some data-----------------------------------
+// var newCar = new Car({
+//     _id: 'Audi',
+//     name: 'Audi',
+//     partIds: ['tireboss', 'engine', 'gearbox']
+// });
+// newCar.save(function (err, doc) {
+//     console.log(err, doc);
+// });
+
+// Part.insertMany([{
+//     _id: 'tireboss',
+//     name: 'tireboss1',
+//     otherIds: ['color1', 'print1']
+// }, {
+//     _id: 'engine',
+//     name: 'engine1',
+//     otherIds: ['color2', 'print2']
+// }, {
+//     _id: 'gearbox',
+//     name: 'gearbox1',
+//     otherIds: ['color1', 'print1']
+// }], function (err, doc) {
+//     console.log(err, doc);
+// });
+
+// Other.insertMany([{
+//     _id:'color1',
+//     name: 'color1'
+// }, {
+//     _id:'color2',
+//     name: 'color2'
+// }, {
+//     _id:'print1',
+//     name: 'print1'
+// }, {
+//     _id:'print2',
+//     name: 'print2'
+// }], function(err, doc) {});
+//first insert some data-----------------------------------
+
+//test virtual-------------------------------------------
+Car.find({_id:'Audi'}).exec(function(err, doc) {
+    console.log(doc);
+    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss'))
 })
 
 
-// //------------------------test 2--------------------------
-// var blogSchema = new mongoose.Schema({
-// 	title: String,
-// 	author: String,
-// 	body: String,
-// 	comments: [{
-// 		body: String,
-// 		date: Date
-// 	}],
-// 	date: {
-// 		type: Date,
-// 		default: Date.now
-// 	},
-// 	hidden: Boolean,
-// 	meta: {
-// 		votes: Number,
-// 		favs: Number
-// 	}
+//test virtual-------------------------------------------
+
+//second--------------------------------------------------
+// Car.find().populate({
+//     path: 'partIds',
+//     select: 'otherIds -_id',
+//     model: 'Part',
+//     populate: {
+//         path: 'otherIds',
+//         select: 'name -_id',
+//         model: 'Other'
+//     }
+// }).lean().exec(function (err, doc) {
+//     console.log(JSON.stringify(doc));
 // });
 
-// var Blog = mongoose.model('Blog', blogSchema);
-
-// // -----insert
-// var doc = new Object();
-// doc.title = 'title11';
-// doc.author = 'author11';
-// var blog = new Blog(doc);
-
-// blog.save(function(err) {
-// 	if (err) throw err;
-// 	console.log('save ok!');
-// });
-
-// // -----insert
-// Blog.create({
-// 	title: 'aaaaaaaa',
-// 	author: 100
-// }, function(err) {
-// 	if (err) throw err;
-// 	console.log('insert ok...');
-// });
-
-// // -----update
-// Blog.update({
-// 	title: 'title11'
-// }, {
-// 	title: 'title22',
-// 	author: 'author222'
-// }, function(err, ret) {
-// 	if (err) throw err;
-// 	console.log(ret);
-// });
-
-
-// // -----select
-// Blog.findOne({
-// 	title: 'title22'
-// }, function(err, ret) {
-// 	if (err) throw err;
-// 	console.log(ret);
-// });
-
-// Blog.find({
-// 	title: 'aaaaaaaa'
-// }, function(err, ret) {
-// 	if (err)
-// 		console.error(err);
-// 	console.log(ret)
-// }).limit(2);
-
-// // -----聚合查询(有待完善)
-// Blog.aggregate({
-// 	$group: {
-// 		_id: null,
-// 		showauthor: {
-// 			$min: '$author'
-// 		}
-// 	}
-// }, {
-// 	$project: {
-// 		_id: 0,
-// 		showauthor: 1
-// 	}
-// }, function(err, res) {
-// 	if (err) throw err;
-// 	console.log(res); // [ { maxBalance: 98000 } ]
-// });
-
-
-// // -----count
-// Blog.count({
-// 	author: 'author222'
-// }, function(err, count) {
-// 	if (err) throw err;
-// 	console.log('there are %d result', count);
-// });
-
-// // -----delete
-// Blog.remove({
-// 	title: 'title11',
-// 	author: 'author22'
-// }, function(err) {
-// 	if (err) throw err;
-// 	console.log('delete ok...');
-// });
+// var output = [{
+//     "_id": "Benz",
+//     "partIds": [{
+//         "otherIds": [{
+//             "name": "color1"
+//         }, {
+//             "name": "print1"
+//         }]
+//     }, {
+//         "otherIds": [{
+//             "name": "color2"
+//         }, {
+//             "name": "print2"
+//         }]
+//     }, {
+//         "otherIds": [{
+//             "name": "color1"
+//         }, {
+//             "name": "print1"
+//         }]
+//     }],
+//     "name": "Benz",
+//     "__v": 0
+// }]
+//second--------------------------------------------------

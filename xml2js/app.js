@@ -7,12 +7,12 @@ parseString(xml1, function (err, result) {
     console.log(result);
 });
 
-var xml_digester = require("xml-digester");
-var digester = xml_digester.XmlDigester({});
-digester.digest(xml1, function(err, result) {
-	console.log(result);
-});
+// var xml_digester = require("xml-digester");
+// var digester = xml_digester.XmlDigester({});
+// digester.digest(xml1, function(err, result) {
+// 	console.log(result);
+// });
 
-var json2xml = require('json2xml');
-var xml_res = json2xml(json_res,{ header: true });
-console.log(xml_res);
+// var json2xml = require('json2xml');
+// var xml_res = json2xml(json_res,{ header: true });
+// console.log(xml_res);
