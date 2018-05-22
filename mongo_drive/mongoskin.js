@@ -1,26 +1,17 @@
 var mongo = require('mongoskin');
 
-var db = mongo.db("mongodb://127.0.0.1:13600/test", {
-	native_parser: true
+var dbOptions = {
+    // native_parser: true
+};
+
+var _dbName = 'mongodb://127.0.0.1:27017/fotoable?auto_reconnect=true';
+
+var _db = mongo.db(_dbName, dbOptions);
+
+_db.collection('apps').find({}).toArray(function (err, reply) {
+    console.log(err,reply);
 });
 
-//------------------------------
-db.bind('blogs');
-
-db.blogs.find().toArray(function(err, items) {
-	// console.log(items);
-	// db.close();
-});
-
-//-------------------------------
-db.bind('blogs').bind({
-	getByAuthor: function(author_id, callback) {
-		this.findOne({
-			author: author_id
-		}, callback);
-	}
-});
-
-db.blogs.getByAuthor('100', function(err, blog) {
-	console.log(blog);
-});
+module.exports = {
+    'db': _db
+};
