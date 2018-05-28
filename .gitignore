@@ -3,4 +3,7 @@ node_modules
 *.log
 logs
 
+*.csv
+*.xlsx
+
 nohup.out
