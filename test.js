@@ -1,27 +1,27 @@
-function getAllPermutations(str) {
-    if (str.length === 1) return [str]
-
-    let results = [];
-    for (let i = 0; i < str.length; i++) {
-        const firstChar = str[i];
-        const charsLeft = str.substring(0, i) + str.substring(i + 1);
-        const innerPermutations = getAllPermutations(charsLeft);
-        for (let j = 0; j < innerPermutations.length; j++) {
-            results.push(firstChar + innerPermutations[j]);
-        }
-        results = [...results, ...innerPermutations]
+function getLastMonth(n) {
+    const nowDate = new Date();
+    const nowYear = nowDate.getFullYear();
+    const nowMonth = nowDate.getMonth() + 1; //0~11 +1 1~12
+    if (nowMonth > n) {
+        let m = nowMonth - n;
+        m = ('00' + m).substr(('' + m).length);
+        return nowYear + m;
+    } else {
+        let y = nowYear - 1;
+        let m = 12 - (n - nowMonth);
+        m = ('00' + m).substr(('' + m).length);
+        return y + m;
     }
-    return [...new Set(results)]
 }
 
-const findMult_3 = (num) => {
-    const m = getAllPermutations(num.toString())
-        .map(Number)
-        .filter(n => !(n % 3) && n)
-        .sort((a, b) => a - b)
-    const n = [...new Set(m)]
-    console.log(n)
-    return [n.length, n[n.length - 1]]
-}
-
-console.log(getAllPermutations('abc'));
+console.log(getLastMonth(1));
+console.log(getLastMonth(2));
+console.log(getLastMonth(3));
+console.log(getLastMonth(4));
+console.log(getLastMonth(5));
+console.log(getLastMonth(6));
+console.log(getLastMonth(7));
+console.log(getLastMonth(8));
+console.log(getLastMonth(9));
+console.log(getLastMonth(10));
+console.log(getLastMonth(11));
