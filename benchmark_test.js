@@ -3,7 +3,7 @@ var Benchmark = require('benchmark');
 
 var suite = new Benchmark.Suite;
 
-// test_for();
+test_for();
 test_object();
 
 function test_object() {
