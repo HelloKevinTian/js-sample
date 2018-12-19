@@ -1,16 +1,17 @@
 var jwt = require('jsonwebtoken');
 var token = jwt.sign({
-    iss: 'auth-center',
-    aud: 'admin-web',
+    iss: 'user-center',
+    sub: 'fotoable',
     exp: Math.floor(Date.now() / 1000) + 5,
-    username: 'admin',
-    time: Date.now().toString()
+    iat: Math.floor(Date.now() / 1000),
+    username: 'tianww',
+    rolelist: []
 }, 'shhhhh');
 
 console.log(token);
 console.log(jwt.verify(token, 'shhhhh', {
-    audience: 'admin-web',
-    issuer: 'auth-center'
+    issuer: 'user-center',
+    subject: 'fotoable'
 }));
 setTimeout(function () {
     try {
@@ -18,4 +19,4 @@ setTimeout(function () {
     } catch (error) {
         console.error('>>>>>>>', error, typeof error);
     }
-}, 10000);
+}, 6000);
