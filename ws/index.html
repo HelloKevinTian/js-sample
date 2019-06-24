@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ws</title>
+    <script type="text/javascript">
+        function doAction() {
+            // Create WebSocket connection.
+            const socket = new WebSocket('ws://localhost:8080');
+
+            // Connection opened
+            socket.addEventListener('open', function (event) {
+                socket.send('Hello Server!');
+            });
+
+            // Listen for messages
+            socket.addEventListener('message', function (event) {
+                console.log('Message from server ', event.data);
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <p>WS 测试</p>
+        </li>
+        <li>
+            <button onclick="doAction()">点击事件</button>
+        </li>
+    </ul>
+</body>
+
+</html>
