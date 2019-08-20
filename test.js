@@ -1,22 +1,37 @@
-const EventEmitter = require('events').EventEmitter;
-
-const emitter = new EventEmitter();
-
-const fun = function() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('dida...')
-            resolve(1);
-        }, 2000);
-    });
+class CustomAPI {
+    getAdName(a, b) {
+        console.log(`a[${a}] b[${b}]`);
+    }
 }
 
-emitter.on('test', async function(params) {
-    
-    console.log('1111', params);
-    const x = await fun();
-    console.log('2222', params, x);
+class FBAPI {
+    constructor() {
+        this.customFuncMap = new Map();
+    }
 
-});
+    addCustomFunc(funcName, func) {
+        if (this.customFuncMap.has(funcName)) {
+            throw new Error('FBAdAPI function exists');
+        } else {
+            this.customFuncMap.set(funcName, func);
+        }
+    }
 
-emitter.emit('test', [123]);
+    execCustomFunc(funcName, ...args) {
+        console.log(this.customFuncMap)
+        if (this.customFuncMap.has(funcName)) {
+            const execFunc = this.customFuncMap.get(funcName);
+            execFunc(...args);
+        } else {
+            throw new Error('FBAdAPI function not exist');
+        }
+    }
+}
+
+const cusAPI = new CustomAPI();
+
+const API = new FBAPI();
+
+API.addCustomFunc('ab', cusAPI.getAdName.bind(cusAPI));
+
+API.execCustomFunc('ab', 111, 222, 333);
