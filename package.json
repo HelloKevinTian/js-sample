@@ -28,6 +28,7 @@
     "nodemailer": "^4.6.4",
     "optimist": "^0.6.1",
     "pg": "^7.4.3",
+    "sharp": "^0.23.0",
     "shelljs": "^0.8.2",
     "shortid": "^2.2.8",
     "winston": "^3.0.0",

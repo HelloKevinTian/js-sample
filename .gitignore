@@ -7,3 +7,9 @@ logs
 *.xlsx
 
 nohup.out
+
+*.jpg
+*.png
+*.jpeg
+*.gif
+package-lock.json
