@@ -1,9 +1,12 @@
 const sharp = require('sharp');
 
-const inputBuffer = require('fs').readFileSync('./adm.jpg');
+const inputImg = 'git1.gif'; // './adm.jpg';
+const outputImg = 'gitout.gif'; // 'output.jpg';
+
+const inputBuffer = require('fs').readFileSync(inputImg);
 
 sharp(inputBuffer)
-  .resize(124, 220)
-  .toFile('output.jpg', (err, info) => {
+  .resize(50)
+  .toFile(outputImg, (err, info) => {
       console.info(err, info);
   });
