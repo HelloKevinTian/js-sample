@@ -13,3 +13,5 @@ nohup.out
 *.jpeg
 *.gif
 package-lock.json
+
+.DS_Store
