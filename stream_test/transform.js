@@ -1,19 +1,19 @@
 const Transform = require('stream').Transform;
 const MAP = {
-  'Barret': '靖',
-  'Lee': '李'
+    'Barret': '靖',
+    'Lee': '李'
 };
-  
+
 class Translate extends Transform {
-  constructor(dataSource, options) {
-    super(options);
-  }
-  _transform(buf, enc, next) {
-    const key = buf.toString();
-    const data = MAP[key];
-    this.push(data);
-    next();
-  }
+    constructor(dataSource, options) {
+        super(options);
+    }
+    _transform(buf, enc, next) {
+        const key = buf.toString();
+        const data = MAP[key];
+        this.push(data);
+        next();
+    }
 }
 
 var transform = new Translate();
