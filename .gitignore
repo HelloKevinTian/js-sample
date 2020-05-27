@@ -15,3 +15,6 @@ nohup.out
 package-lock.json
 
 .DS_Store
+
+*.key
+*.pem
