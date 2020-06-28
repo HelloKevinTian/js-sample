@@ -1,27 +1,47 @@
-const winston = require('winston');
+const { createLogger, transports, format, config } = require('winston');
 const DailyRotateFile = require('winston-daily-rotate-file');
 
-const log = winston.createLogger({
-    level: 'info',
+const logger = createLogger({
+    levels: config.syslog.levels,
+    // level: 'info',
+    // format: format.simple(), //splat json simple colorize
+    format: format.combine(
+        format.splat(),
+        format.simple(),
+        // format.colorize(),
+        format.json()
+    ),
     transports: [
-        new winston.transports.Console()
+        new transports.Console(),
+        new transports.File({
+            filename: 'combined.log',
+            level: 'info'
+        }),
     ]
 });
 
 const opts = {
     filename: 'access-%DATE%.log',
-    dirname: './bilog',
+    dirname: './',
     datePattern: 'YYYY-MM-DD-HH',
     // zippedArchive: true,
     maxSize: '1024m',
     // maxFiles: '14d'
 }
 
-log.configure({
+logger.configure({
     level: 'info',
     transports: [
         new DailyRotateFile(opts)
     ]
 });
 
-log.info(opts)
+logger.info(opts)
+
+try {
+    // logger.info(opts)
+    throw new Error('is not null')
+} catch (err) {
+    // console.log(err);
+    logger.info(err)
+}
