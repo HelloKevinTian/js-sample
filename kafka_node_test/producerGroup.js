@@ -10,26 +10,31 @@ var KeyedMessage = kafka.KeyedMessage;
 var producer = new kafka.Producer(client);
 // var producer = new kafka.HighLevelProducer(client);
 
-var topic = 'topic-foo';
+var topic = 'twtest';
 
 var message = 'hello consumer';
 var keyedMessage = new KeyedMessage('keyed', 'a keyed message');
 
 var payloads = [{
-    topic: topic,
+    topic,
     messages: [message, keyedMessage]
 }];
 
-producer.on('ready', function () {
+producer.on('ready', function() {
+    console.log('ready');
     // producer.createTopics([topic], function (err, result) {
     // result is an array of any errors if a given topic could not be created
-    producer.send(payloads, function (err, data) {
-        console.log(err || data);
-        process.exit();
-    })
+    // producer.send(payloads, function (err, data) {
+    //     console.log(err || data);
+    // })
+    setInterval(() => {
+        producer.send(payloads, function (err, data) {
+            console.log(err || data);
+        })
+    }, 5000);
     // })
 })
 
-producer.on('error', function (err) {
+producer.on('error', function(err) {
     console.log('error', err);
 })
