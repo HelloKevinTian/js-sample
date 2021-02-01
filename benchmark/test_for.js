@@ -28,6 +28,11 @@ function test_for() {
                 let a = value;
             });
         })
+        .add('map', function () {
+            arr.map(function(value) {
+                let a = value;
+            })
+        })
         .on('cycle', function (event) {
             console.log(String(event.target));
         })
