@@ -46,6 +46,7 @@
     "sharp": "^0.23.0",
     "shelljs": "^0.8.2",
     "shortid": "^2.2.8",
+    "simple-git": "^2.34.2",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0",
     "ws": "^7.0.1",
