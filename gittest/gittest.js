@@ -192,11 +192,18 @@ class GitService {
 
 //---------以下为测试代码------------
 
+
 setTimeout(async () => {
     try {
+
+        await GitService.execCmd('sed -i "s%^{account_token}$% 123456%g" /Users/tianwen/Downloads/template/index.html')
+
+        return;
+
+
         //init
         let user = 'jenkins';
-        let pass = 'utMLD_Nh9uJnXpeY';
+        let pass = 'xxxx';
         let repo = 'gitlab.ftsview.com/Kernel-Service/Test/gitop.git';
         let localPath = process.cwd() + '/gitop';
         
