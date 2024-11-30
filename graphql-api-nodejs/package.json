@@ -21,6 +21,6 @@
     "formidable": "^1.2.1",
     "graphql": "^0.13.2",
     "graphql-tools": "^2.23.1",
-    "mongoose": "^5.0.11"
+    "mongoose": "^5.7.5"
   }
 }
